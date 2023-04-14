@@ -10,7 +10,7 @@
 }
 
 .contain-post {
-    display: flex;
+    display:flex;
 }
 
 .nav {
@@ -207,7 +207,6 @@
     display: flex;
     list-style: none;
     align-items: center;
-    gap: -30px;
     margin-right: 20px;
     margin-top: 10px;
 }
@@ -266,17 +265,12 @@
 }
 
 .bar2 {
-    display: flex;
     color: whitesmoke;
     background-color: #303030;
-    width: 500px;
-    height: 60px;
+    padding:10px;
 }
 
-.edu {
-    margin-top: 15px;
-    margin-right: 375px;
-}
+
 
 .date {
     color: darkgray;
