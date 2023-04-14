@@ -21,6 +21,7 @@
     justify-content:space-between;
     height:80px;
     width:1000px;
+    gap:80px;
 }
 
 .nav-title{
@@ -35,7 +36,7 @@
     gap:15px;
     padding:10px;
     list-style-type:none;
-    margin-right:60px;
+    margin-right:90px;
 }
 
 .nav-link{
