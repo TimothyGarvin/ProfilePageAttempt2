@@ -138,7 +138,7 @@
 }
 
 .connection-requests {
-    height: 250px;
+    /* height: 250px; */
     width: 350px;
     /* background-color:darkcyan; */
     outline: solid lightgray 3px;

@@ -29,7 +29,7 @@
                     <div class="bar">
                         <img class="jane" src="./1614265160__images/images/jane-m.jpg">
                     </div>
-                    <h1 class="jName">Jane Doe</h1>
+                    <h1 id="jane" class="jName">Jane Doe</h1>
                     <div class="location">
                         <img class="pin" src="./1614282895__icons/icons/map-marker.png">
                         <h2 class="seattle">Seattle</h2>
@@ -38,7 +38,7 @@
                         Master of shadows and the Internet!</p>
                     <div class="edit-pro">
                         <img class="gear" src="./1614282895__icons/icons/gear.png">
-                        <a class="edit" href="#">edit profile</a>
+                        <a onclick="changeName()" class="edit" href="#">edit profile</a>
                     </div>
                 </div>
                 <div class="education">
@@ -55,24 +55,24 @@
             <div class="col2">
                 <div class="connection-requests">
                     <div class="bar1">
-                        <h2 class="notif">2</h2>
+                        <h2 id="count" class="notif">2</h2>
                         <h2 class="cRec">Connection Requests</h2>
                     </div>
-                    <ul class="recNames2">
+                    <ul id="toddReq" class="recNames2">
                         <li><img class="toddPic" src="./1614265160__images/images/todd-s.jpg"></li>
                         <li>
                             <h2 class="Todd">Todd E</h2>
                         </li>
-                        <li><img class="accept" src="./1614282895__icons/icons/accept-circle.png"></li>
-                        <li><img class="close" src="./1614282895__icons/icons/close-circle.png"></li>
+                        <li><img onclick="remove2()" class="accept" src="./1614282895__icons/icons/accept-circle.png"></li>
+                        <li><img onclick="remove2()" class="close" src="./1614282895__icons/icons/close-circle.png"></li>
                     </ul>
-                    <ul class="recNames">
+                    <ul id="philReq" class="recNames">
                         <li><img class="philPic" src="./1614265160__images/images/phil-s.jpg"></li>
                         <li>
                             <h2 class="phil">Phil K</h2>
                         </li>
-                        <li><img class="accept" src="./1614282895__icons/icons/accept-circle.png"></li>
-                        <li><img class="close" src="./1614282895__icons/icons/close-circle.png"></li>
+                        <li><img onclick="remove1()" class="accept" src="./1614282895__icons/icons/accept-circle.png"></li>
+                        <li><img onclick="remove1()" class="close" src="./1614282895__icons/icons/close-circle.png"></li>
                     </ul>
 
                 </div>
@@ -123,6 +123,7 @@
 
         </div>
     </div>
+<script src="ProfilePage2.js"></script>
 </body>
 
 </html>
